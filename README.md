@@ -13,7 +13,7 @@ To install, simply:
 You will need to add either a **configuration file**, or a **`.env` file** to use this plugin.
 
 ### Using an configuration file
-Create a file, `config/sentry.php`, with the following contents:
+Create a file in your main October directory, `config/sentry.php`, with the following contents:
 
 ```php
 <?php
