@@ -3,6 +3,7 @@
 This is a sample for how to integrate [Sentry's](https://sentry.io) [laravel plugin](https://github.com/getsentry/sentry-laravel) with OctoberCMS. 
 
 To install, simply:
+
 1. [Create a new plugin](https://octobercms.com/docs/console/scaffolding#scaffold-create-plugin) with the `php artisan create:plugin` command.
 2. Replace the newly created plugin with these files.
 3. Change the [`namespace`](Plugin.php#L1) in the `Plugin.php` file to reflect your new plugin author/name.
