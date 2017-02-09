@@ -1,0 +1,17 @@
+{
+    "name": "jarydkrish/oc-sentry-plugin",
+    "type": "october-plugin",
+    "description": "The super awesome Sentry error logger",
+    "homepage": "https://github.com/jarydkrish/oc-sentry-plugin",
+    "authors": [
+        {
+            "name": "Jaryd Krishnan",
+            "email": "jarydkrishnan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "sentry/sentry": "^1.6.2",
+        "sentry/sentry-laravel": "^0.6.0"
+    }
+}
