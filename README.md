@@ -30,7 +30,7 @@ return [
     */
 
     'dsn' => 'https://****:*****@sentry.io/***',
-    'breadcrumbs.sql_bindings' => true,
+    'breadcrumbs.sql_bindings' => true, # Could be insecure!
     'release' => trim(exec('git log --pretty="%h" -n1 HEAD')),
 ];
 ```
