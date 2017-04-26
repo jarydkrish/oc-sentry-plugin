@@ -33,7 +33,9 @@ class Plugin extends PluginBase
      */
     public function boot()
     {
-        $this->setSentryHandler();
+        if (!App::runningInConsole()) {
+            $this->setSentryHandler();
+        }
     }
 
     public function setSentryHandler()
