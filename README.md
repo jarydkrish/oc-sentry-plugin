@@ -1,4 +1,3 @@
-[![Sentry](https://a0wx592cvgzripj.global.ssl.fastly.net/_static/2073574936914380bbe78364e39e7585/getsentry/images/branding/png/sentry-horizontal-black.png)](https://sentry.io)
 # OctoberCMS Sentry Plugin
 This is a sample for how to integrate [Sentry's](https://sentry.io) [laravel plugin](https://github.com/getsentry/sentry-laravel) with OctoberCMS. 
 
